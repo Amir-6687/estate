@@ -2,7 +2,7 @@ export const listData = [
   {
     id: 1,
     title: "Modern Studio",
-    img: "https://housinganywhere.imgix.net/unit_type/1011111/1a2b3c.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    img: "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTE2MzY3MDYzNDkxOTA3NzMyOA%3D%3D/original/806329c5-8326-4590-91c7-0e591291a3a7.jpeg?im_w=720",
     bedroom: 1,
     bathroom: 1,
     price: 750,
@@ -13,7 +13,7 @@ export const listData = [
   {
     id: 2,
     title: "Cozy Flat",
-    img: "https://housinganywhere.imgix.net/unit_type/1011112/2b3c4d.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    img: "https://roomless-listing-images.s3.us-east-2.amazonaws.com/listing/81/34/9e/f9/81349ef9-7257-4eff-9117-81f2c7637a12.jpeg",
     bedroom: 2,
     bathroom: 1,
     price: 890,
@@ -24,7 +24,7 @@ export const listData = [
   {
     id: 3,
     title: "Family Home",
-    img: "https://housinganywhere.imgix.net/unit_type/1011113/3c4d5e.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    img: "https://a0.muscache.com/im/pictures/monet/Select-2464761/original/7cca8534-5473-4586-9999-ce5671d75e0b",
     bedroom: 4,
     bathroom: 2,
     price: 1500,
@@ -35,7 +35,7 @@ export const listData = [
   {
     id: 4,
     title: "Penthouse",
-    img: "https://housinganywhere.imgix.net/unit_type/1011114/4d5e6f.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    img: "https://a0.muscache.com/im/pictures/miso/Hosting-730265685388401782/original/99f40c86-6334-4cbd-804d-58290c032ffc.jpeg?im_w=720",
     bedroom: 3,
     bathroom: 3,
     price: 2300,
@@ -45,8 +45,9 @@ export const listData = [
   },
   {
     id: 5,
-    title: "City Apartment",
-    img: "https://housinganywhere.imgix.net/unit_type/1011115/5e6f7g.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    title: "Modern City Apartment",
+
+    img: "https://cdn.hometogo.net/medium/v1/be7/62f/e02d06d45c6ce1ab1f5cf29267.jpg",
     bedroom: 2,
     bathroom: 2,
     price: 1200,
@@ -56,8 +57,9 @@ export const listData = [
   },
   {
     id: 6,
-    title: "Student Housing",
-    img: "https://housinganywhere.imgix.net/unit_type/1011116/6f7g8h.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    title: "Cozy Studio in Central London",
+
+    img: "https://yestayhomes.com/sites/default/files/styles/property_page_slider/public/residence/838/5.jpg?itok=VI4jzbuH",
     bedroom: 1,
     bathroom: 1,
     price: 600,
@@ -78,8 +80,9 @@ export const listData = [
   },
   {
     id: 8,
-    title: "Luxury Villa",
-    img: "https://housinganywhere.imgix.net/unit_type/1011118/8h9i0j.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    title: "Spacious Family House",
+
+    img: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1008637169478461552/original/cc8c759c-c765-47cf-9a2d-902ce4c01315.jpeg?im_w=720",
     bedroom: 5,
     bathroom: 4,
     price: 3200,
@@ -90,7 +93,7 @@ export const listData = [
   {
     id: 9,
     title: "Downtown Loft",
-    img: "https://housinganywhere.imgix.net/unit_type/1011119/9i0j1k.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    img: "https://a0.muscache.com/im/pictures/prohost-api/Hosting-1223885002390114350/original/0d266764-b638-4630-8097-e6f304a78ba1.jpeg?im_w=720",
     bedroom: 2,
     bathroom: 2,
     price: 1350,
@@ -100,8 +103,9 @@ export const listData = [
   },
   {
     id: 10,
-    title: "Suburban House",
-    img: "https://housinganywhere.imgix.net/unit_type/1011120/0j1k2l.jpg?ixlib=react-9.8.1&auto=format&fit=crop&ar=1%3A1&q=45",
+    title: "Luxury Penthouse with View",
+
+    img: "https://a0.muscache.com/im/pictures/hosting/Hosting-1233456044971977737/original/37315df1-b0bd-456d-8274-a56198625b91.jpeg?im_w=720",
     bedroom: 4,
     bathroom: 3,
     price: 1450,
