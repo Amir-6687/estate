@@ -1,18 +1,19 @@
-import Navbar from "./component/Navbar/Navbar";
-import "./layout.scss";
-import HomePage from "./routes/homePage/homePage"; // اضافه کردن این خط
+import HomePage from "./routes/homePage/homePage";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
-  return (
-    <div className="layout">
-      <div className="navbar">
-        <Navbar />
-      </div>
-      <div className="content">
-        <HomePage />
-      </div>
-    </div>
-  );
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Layout />,
+      children: [
+        { path: "/", element: <HomePage /> },
+        { path: "/list", element: <ListPage /> },
+      ],
+    },
+  ]);
+
+  return <RouterProvider router={router} />;
 }
 
 export default App;
