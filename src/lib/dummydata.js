@@ -114,3 +114,33 @@ export const listData = [
     longitude: -1.8904,
   },
 ];
+
+export const singlePostData = {
+  id: 1,
+  title: "Beautiful Apartment",
+  price: 1200,
+  images: [
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA2NDYxNzgzOTcwOTgzMTUwOQ==/original/e093a7ef-1e00-4b2f-b241-e8b356454490.jpeg?im_w=1200",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA2NDYxNzgzOTcwOTgzMTUwOQ==/original/04fba41e-e611-4447-85bd-70808c3c1fed.jpeg?im_w=1200",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA2NDYxNzgzOTcwOTgzMTUwOQ==/original/301c4e6e-5bb5-4802-b951-c64d02d845d5.jpeg?im_w=720",
+    "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTA2NDYxNzgzOTcwOTgzMTUwOQ==/original/abce7de4-c248-4eae-8256-a980c365678d.jpeg?im_w=1200",
+  ],
+  bedroom: 3,
+  bathroom: 2,
+  size: 861,
+  latitude: 51.5074,
+  longitude: -0.1278,
+  city: "London",
+  address: "22 Camden Road, London",
+  school: "St. Paul's Cathedral",
+  bus: "100m away",
+  restaurant: "500m away",
+  description:
+    "A cozy apartment in the heart of the city. Perfect for a romantic getaway or a family vacation. Enjoy modern amenities, a fully equipped kitchen, and comfortable furnishings.Located steps away from top restaurants, shops, and cultural landmarks.Relax in a quiet, stylish space after a day of exploring.Whether you're traveling for leisure or business, this place feels like home.",
+};
+
+export const userData = {
+  id: 1,
+  name: "John Doe",
+  img: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600",
+};
