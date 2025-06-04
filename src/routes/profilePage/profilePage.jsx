@@ -27,7 +27,7 @@ function ProfilePage() {
             </span>
           </div>
           <div className="title">
-            <h1>Use My List</h1>
+            <h1>My List</h1>
             <button>Create New Post</button>
           </div>
           <List />
