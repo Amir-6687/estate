@@ -63,9 +63,11 @@
     }
   }
   .chatContainer {
+    height: 100vh;
     flex: 3;
     background-color: #fcf5f3;
     height: 100%;
+    overflow: hidden;
 
     @include md {
       flex: none;

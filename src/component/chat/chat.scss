@@ -5,11 +5,11 @@
 
   .messages {
     flex: 1;
-    height: 66.66%;
+    max-height: 50vh;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    overflow-y: scroll;
+    overflow: auto;
 
     h1 {
       font-weight: 300;
@@ -39,7 +39,8 @@
 
   .chatBox {
     flex: 1;
-    height: 33.33%;
+    // height: 33.33%;
+    max-height: 40vh;
     background-color: white;
     display: flex;
     flex-direction: column;
