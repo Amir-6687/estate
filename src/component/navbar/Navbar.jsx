@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   const [open, setOpen] = useState(false);
 
+  const user = true;
   return (
     <nav>
       <div className="left">
@@ -18,10 +19,26 @@ function Navbar() {
         <Link to="/agents">Agents</Link>
       </div>
       <div className="right">
-        <Link to="/login">Sign In</Link>
-        <Link to="/register" className="register">
-          Sign Up
-        </Link>
+        {user ? (
+          <div className="user">
+            <img
+              src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt=""
+            />
+            <span>John Doe</span>
+            <Link to="/profile" className="profile">
+              <div className="notification">3</div>
+              <span>Profile</span>
+            </Link>
+          </div>
+        ) : (
+          <>
+            <Link to="/login">Sign In</Link>
+            <Link to="/register" className="register">
+              Sign Up
+            </Link>
+          </>
+        )}
         <div className="menuIcon">
           <img
             src="./menu.png"
