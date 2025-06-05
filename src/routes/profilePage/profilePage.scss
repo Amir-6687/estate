@@ -11,7 +11,7 @@
 
   .details {
     flex: 3;
-    overflow-y: scroll;
+    // overflow-y: scroll;
     padding-bottom: 50px;
 
     @include md {
@@ -63,10 +63,10 @@
     }
   }
   .chatContainer {
-    height: 100vh;
+    height: 100%;
     flex: 3;
     background-color: #fcf5f3;
-    height: 100%;
+
     overflow: hidden;
 
     @include md {

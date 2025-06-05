@@ -59,7 +59,6 @@ nav {
     justify-content: flex-end;
     background-color: #fcf5f3;
     height: 100%;
-    border-radius: 10px;
 
     @include md {
       background-color: transparent;
@@ -69,7 +68,7 @@ nav {
       padding: 12px 24px;
       margin: 20px;
       text-decoration: none;
-      color: #171717;
+      color: white;
     }
 
     .user {
