@@ -1,6 +1,6 @@
+import Chat from "../../components/chat/Chat";
+import List from "../../components/list/List";
 import "./profilePage.scss";
-import List from "../../component/list/List";
-import Chat from "../../component/chat/Chat";
 
 function ProfilePage() {
   return (
@@ -8,14 +8,14 @@ function ProfilePage() {
       <div className="details">
         <div className="wrapper">
           <div className="title">
-            <h1>Use Information</h1>
+            <h1>User Information</h1>
             <button>Update Profile</button>
           </div>
           <div className="info">
             <span>
-              Avatar :{" "}
+              Avatar:
               <img
-                src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=600"
+                src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt=""
               />
             </span>
@@ -23,7 +23,7 @@ function ProfilePage() {
               Username: <b>John Doe</b>
             </span>
             <span>
-              E-mail: <b>john.doe@example.com</b>
+              E-mail: <b>john@gmail.com</b>
             </span>
           </div>
           <div className="title">
@@ -32,14 +32,14 @@ function ProfilePage() {
           </div>
           <List />
           <div className="title">
-            <h1>Save List</h1>
+            <h1>Saved List</h1>
           </div>
           <List />
         </div>
       </div>
       <div className="chatContainer">
         <div className="wrapper">
-          <Chat />
+          <Chat/>
         </div>
       </div>
     </div>

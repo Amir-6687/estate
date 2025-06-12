@@ -1,6 +1,6 @@
-import Slider from "../../component/slider/Slider";
 import "./singlePage.scss";
-import MapContainer from "../../component/map/Map";
+import Slider from "../../components/slider/Slider";
+import Map from "../../components/map/Map";
 import { singlePostData, userData } from "../../lib/dummydata";
 
 function SinglePage() {
@@ -36,21 +36,21 @@ function SinglePage() {
               <img src="/utility.png" alt="" />
               <div className="featureText">
                 <span>Utilities</span>
-                <p>Renter is responsible for utilities.</p>
+                <p>Renter is responsible</p>
               </div>
             </div>
             <div className="feature">
               <img src="/pet.png" alt="" />
               <div className="featureText">
                 <span>Pet Policy</span>
-                <p>Pets are allowed.</p>
+                <p>Pets Allowed</p>
               </div>
             </div>
             <div className="feature">
               <img src="/fee.png" alt="" />
               <div className="featureText">
-                <span>Property Fee</span>
-                <p>Must have 3x the rent in total household income.</p>
+                <span>Property Fees</span>
+                <p>Must have 3x the rent in total household income</p>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ function SinglePage() {
           <div className="sizes">
             <div className="size">
               <img src="/size.png" alt="" />
-              <span>80sqm(861sqft)</span>
+              <span>80 sqft</span>
             </div>
             <div className="size">
               <img src="/bed.png" alt="" />
@@ -69,7 +69,6 @@ function SinglePage() {
               <span>1 bathroom</span>
             </div>
           </div>
-
           <p className="title">Nearby Places</p>
           <div className="listHorizontal">
             <div className="feature">
@@ -89,15 +88,14 @@ function SinglePage() {
             <div className="feature">
               <img src="/fee.png" alt="" />
               <div className="featureText">
-                <span>Reataurant</span>
+                <span>Restaurant</span>
                 <p>200m away</p>
               </div>
             </div>
           </div>
-
           <p className="title">Location</p>
           <div className="mapContainer">
-            <MapContainer items={[singlePostData]} />
+            <Map items={[singlePostData]} />
           </div>
           <div className="buttons">
             <button>
